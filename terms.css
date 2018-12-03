@@ -1,0 +1,35 @@
+body{
+	margin: 30px;
+	background-color: #ffcf96;
+	font-family: arial;
+	color: #555d50;
+}
+
+h2{
+	color: #f28500;
+}
+
+h3{
+	color: #f28500;
+}
+
+.title{
+	color: #f28500;;
+}
+
+a:visited { 
+	color: blue;
+}
+
+
+hr{
+	border-color: #f28500;
+	background-color: #f28500;
+}
+
+#me{
+	text-align: center;
+	color: #555d50;
+	margin-top: 0px;
+	font-size: 15px;
+}

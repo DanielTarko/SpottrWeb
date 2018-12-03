@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>spottr</title>
+	<link rel="stylesheet" type="text/css" href="spottr.css">
+	<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+</head>
+<body>
+	<div class="menu">
+		<a class = "link" href="#contact">contact us</a>
+		<a class = "link" href="./terms.html" target = "_blank">terms & conditions</a>
+		<a class = "link" href="./privacy.html" target = "_blank">privacy policy</a>
+	</div>
+
+		<h1 id = "title">SPOTTR</h1>
+		<div class="my-class">
+			<h2 class = "description">the new name in social media</h2>
+			<a id = "download">download now</a>
+		</div>​
+	<div class = "content">
+		<img class="picture" src="./iphone.png" alt="image of spottr app on iphone">
+		<h3 class = "heading"> What is spottr?</h3>
+		<p class = "paragraph">
+			Spottr is a social media app unlike any other. The way people can now connect is more unique, special and fun than ever before! Spottr allows users to post photos and videos (with captions, views and comments) onto their friends pages  so the content shared is in the right place. It is shown who posted the photo/video on to your/your friends page, so people are held accountable. This means that the photos and videos you have on your page have all been posted by your friends! However, when a friend posts onto your page or vise versa, the person receiving the post must approve of it before he/she’s friends see it on their feed. Lastly, since all the content posted onto your page has been posted by your friends, it truly shows the most authentic version of yourself. Since you can approve or disprove of anything posted on to your page, your page will be filled with tons of cool stuff that has been posted by your friends and that you’re proud of.
+		</p>
+
+		<h3 class = "heading">Why post on your friends Spottr page?</h3>
+		<p class = "paragraph">
+			Because now you can take all the  messages, funny photos or videos and any jokes or content you decided is relevant to a friend and post it onto their page! That way their friends get to see the content posted. For example, all those Happy Birthday/congratulations or even more thoughtful serious messages can appropriately be posted onto your friends page so the friends of your friend (who’s page you’re posting onto get to see the post). In other words, people who actually care about the person you’re posting about. 
+		</p>
+
+		<h3 class = "heading">Why is posting on Spottr way more fun, unique <br>and effective than anything else?</h3>
+		<p class = "paragraph">
+			Because when posting on to your friends Spottr page you get to connect with new people, bond with mutual friends and post photos or videos directly on to your friends page, where it is more relevant. Most importantly, since there is only a view counter and comment section on each post, so their is not judgement in terms of likes, and since each post will be on your friends page (if they approve of the post) there is no need to worry about being judged for the post.
+		</p>
+
+	</div>
+
+	<div id = "contact">		
+		<p class = "paragraph" id="based"><a id="email" href="mailto:spottrmedia@gmail.com">email us</a> | Based in Los Angeles California</p>
+	</div>
+	
+	<hr>
+	<p id="me">a <a id="mySite" href="https://dtarko2020.github.io/danieltarko/" target="_blank">Daniel Tarko</a> production</p>
+	
+</body>
+</html>

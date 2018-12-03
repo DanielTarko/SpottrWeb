@@ -1,0 +1,108 @@
+body{
+	background-color: #ffcf96;
+		font-family: arial;
+		margin: 0;
+}
+
+#mySite:visited { 
+	color: blue;
+}
+
+.menu{
+	    text-align: center;
+	    margin:0;
+}
+
+.link{
+text-align: center;
+  display: inline-block;
+    margin: 10px;
+  padding: 12px;
+      color: #555d50;
+text-decoration: none;
+
+}
+
+.description{
+	text-align: center;
+	color: #555d50;
+	font-size: 30px;
+
+}
+
+.my-class{
+	text-align: center;
+}
+
+#title{
+	color: #f28500;
+	font-size: 175px;
+	text-align: center;
+	margin:50px;
+	margin-bottom: 10px;
+}
+
+#download{
+	display: none;
+	color: #ffcf96;
+	font-size: 25px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-right:auto;
+  	margin-left:auto;
+  	background-color: #f28500;
+	cursor: pointer;
+    border-radius: 25px;
+	text-align: center;
+}
+
+.content{
+	width:900px;
+	margin: 0 auto;
+	padding: 20px;
+	line-height: 35px;
+}
+
+.picture{
+	  margin: 30px 220px;
+}
+
+.link:hover{
+	   color: #f28500;
+
+}
+
+.heading{
+	text-align: center;
+	font-size: 30px;
+	color: #f28500;
+	margin-top: 40px;
+}
+.paragraph{
+	text-align: center;
+	font-size: 25px;
+	color: #555d50;
+}
+
+#contact{
+	display: inline;
+}
+
+#based{
+	margin-bottom: 3px;
+
+}
+
+
+hr{
+	border-color: #f28500;
+}
+
+#me{
+	text-align: center;
+	color: #555d50;
+	margin-top: 0px;
+	font-size: 15px;
+}
